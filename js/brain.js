@@ -39,13 +39,16 @@ class App {
 
   getData() {
     const data = JSON.parse(localStorage.getItem("todoHistory"));
+    const itemsCount = localStorage.getItem("currentItems");
     if (!data) return;
     this.baseHolder  = data;
+    this.currentItems = itemsCount;
     this.todoInput([...this.baseHolder.dataHolder]);
   }
 
   setData() {
     localStorage.setItem("todoHistory", JSON.stringify(this.baseHolder));
+    localStorage.setItem("currentItems", this.currentItems);
   }
 
   storeData(e) {
