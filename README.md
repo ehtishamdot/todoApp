@@ -1,5 +1,5 @@
 # Todo app
-Line: https://hardcore-bhabha-a7e195.netlify.app/
+Line: http://todowork.ninja/
 
 Your users should be able to:
 
