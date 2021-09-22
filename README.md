@@ -1,7 +1,5 @@
 # Todo app
 Line: https://hardcore-bhabha-a7e195.netlify.app/
-![Design preview for the Todo app coding challenge](./design/desktop-preview.jpg)
-
 
 Your users should be able to:
 
