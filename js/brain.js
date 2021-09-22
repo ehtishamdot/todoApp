@@ -38,8 +38,9 @@ class App {
   //functions
 
   getData() {
-    this.baseHolder = JSON.parse(localStorage.getItem("todoHistory"));
-
+    const data = JSON.parse(localStorage.getItem("todoHistory"));
+    if (!data) return;
+    this.baseHolder  = data;
     this.todoInput([...this.baseHolder.dataHolder]);
   }
 
