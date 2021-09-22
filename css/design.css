@@ -86,6 +86,7 @@ main {
   padding: 0 1rem;
   background-color: var(--Light-Grayish-Blue);
   font-weight: 700;
+  z-index: 10;
 }
 
 .input-container .btn-input {
@@ -163,6 +164,7 @@ main {
   cursor: pointer;
   position: absolute;
   right: 10%;
+  z-index: 10;
 }
 
 .more {
